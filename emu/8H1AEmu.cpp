@@ -7,7 +7,7 @@
 #include <stdint.h>
 #include <math.h>
 #include <ncurses.h>
-#include "8H1A.hpp"
+#include "../8H1A/8H1A.hpp"
 
 C8H1A cpu(0);
 std::string data;
