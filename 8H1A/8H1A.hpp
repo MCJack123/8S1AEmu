@@ -1,4 +1,4 @@
-#include "8S1A.hpp"
+#include "../8S1A/8S1A.hpp"
 
 class byte16: public std::bitset<16> {
     public:
