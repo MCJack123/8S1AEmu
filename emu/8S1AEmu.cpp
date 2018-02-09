@@ -2,7 +2,7 @@
 #include <fstream>
 #include <sstream>
 #include <string>
-#include "8S1A.hpp"
+#include "../8S1A/8S1A.hpp"
 
 C8S1A cpu = C8S1A();
 std::string data;
