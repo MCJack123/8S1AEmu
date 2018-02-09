@@ -1,5 +1,5 @@
 # 8S1AEmu
-An emulator for my WIP Minecraft 8-bit CPU.
+An emulator for my WIP Minecraft 8-bit CPU. This version emulates how the chip will work almost exactly.
 
 # The 8S1A Chip
 * 8-bit CPU
