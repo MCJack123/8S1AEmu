@@ -131,7 +131,7 @@ int main(int argc, const char * argv[]) {
             std::cerr << "Error: Invalid instruction " << instr << "\n";
             return 2;
         }
-        std::string argstr = line.substr(5, line.find("#") - 6);
+        std::string argstr = line.substr(5, line.find(";") - 6);
         std::vector<std::string> args = split(argstr, ',');
         int i = 0;
         for (std::string arg : args) {
