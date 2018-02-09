@@ -1,6 +1,6 @@
 addn 2,4
 ifeq $0,6
-    outp 84 # Can be indented
+    outp 84 ; Can be indented
 done
 ifne $0,6
     outp 70
