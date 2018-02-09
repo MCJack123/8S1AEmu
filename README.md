@@ -38,6 +38,7 @@ Requires ncurses to build the emulator
 
 # Assembly Syntax
 Works mainly like normal assembly, but has a few differences.
+See `examples/test3.s` for an example program.
 * The `.data` and `.bss` sections must come before the `.text` section
 * Programs must end with the `ret` instruction
 * Positions in CPU memory are given with a `$` before the position
